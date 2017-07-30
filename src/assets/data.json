@@ -1,0 +1,34 @@
+{
+    "items" :[
+        {
+            "name": "Look at this outfit!",
+            "hashtags": ["#box","#white","#rallas"],
+            "image": "/static/1.jpg"
+        },
+        {
+            "name": "Spring is coming...",
+            "hashtags": ["#box","#pink","#spring"],
+            "image": "/static/2.jpg"
+        },
+        {
+            "name": "So sexy at home!",            
+            "hashtags": ["#mirror","#white","#black","#home"],
+            "image": "/static/3.jpg"
+        },
+        {
+            "name": "How it looks?",
+            "hashtags": ["#black","#wardrope","#h&m"],
+            "image": "/static/4.jpg"
+        },
+                {
+            "name": "Muacks! <3",
+            "hashtags": ["#lips","#red","#lipstick","#ud"],
+            "image": "/static/5.jpg"
+        },
+        {
+            "name": "Beach day 2016!",
+            "hashtags": ["#sun","#beach","#pink,","#bikini","#hot"],
+            "image": "/static/6.jpg"
+        }
+    ]    
+}
