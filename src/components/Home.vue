@@ -1,7 +1,7 @@
 <template>
   <div>
     <div v-if="movies.length" class="movies">
-      <igpost v-for="item in filteredMovies" :title="item.title" :image="item.poster_path"></igpost>
+       <igpost v-for="item in movies" :title="item.title" :image="item.poster_path"></igpost> 
     </div>
   </div>
 </template>
@@ -9,7 +9,7 @@
 <script>
 import { mapState, mapActions } from 'vuex'
 import api from '../services/api'
-import igpost from './Item'
+import igpost from './Publication'
 
 export default {
   name: 'hello',
@@ -23,17 +23,6 @@ export default {
       'movies',
       'genres'
     ]),
-    filteredMovies() {
-      if (this.selectedGenre) {
-        const genre = parseInt(this.selectedGenre)
-
-        return this.movies.filter( movie => {
-          return movie.genre_ids.indexOf(genre) !== -1
-        })
-      } else {
-        return this.movies
-      }
-    }
   },
   methods: {
     ...mapActions([

@@ -1,5 +1,5 @@
 <template lang="html">
-   <md-card class="item-card">
+   <md-card>
 
     <md-card-media>
       <img :src="`https://image.tmdb.org/t/p/w500/${ image }`" alt="">
